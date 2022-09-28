@@ -21,8 +21,8 @@ Supported Os or Applications:Linux distributions, gitbash.
 
 7.Compile a C file
 
-#Usage
-Download script and place in desired folder.
+# Usage
+Clone repository and move Appbash.sh to desired folder.
 Run script with "./Appbash.sh"
 If you get and error then copy the following command
 "Chmod u+x *.sh" and run the script again.
