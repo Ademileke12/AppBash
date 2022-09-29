@@ -8,6 +8,7 @@ echo "5.Copy a single file to a directory"
 echo "6.Delete a single file permanetly... This doesnt go to your recycle bin be warned" 
 echo "7.Compile a C file"
 echo "8.Compile a python file"
+echo "9.Clone a Repository from Github"
 echo ""
 
 echo "Pick an option:"; read option
@@ -67,6 +68,12 @@ elif [ $option -eq 8 ]
 then
 	echo "Type in the name of the python file without the extension"; read pyfile
 	python -m $pyfile
+
+	echo "Process..Completed"
+elif [ $option -eq 9 ]
+then
+	echo "Paste The github link:"; read github_link
+	git clone $github_link
 
 	echo "Process..Completed"
 

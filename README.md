@@ -23,6 +23,8 @@ Supported Os or Applications:Linux distributions, gitbash.
 
 8.Compile a python file
 
+9.Clone A Github Repository
+
 # Usage
 Clone repository and move Appbash.sh to desired folder.
 Run script with "./Appbash.sh"
