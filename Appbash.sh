@@ -7,6 +7,7 @@ echo "4.Move a single file to a directory"
 echo "5.Copy a single file to a directory"
 echo "6.Delete a single file permanetly... This doesnt go to your recycle bin be warned" 
 echo "7.Compile a C file"
+echo "8.Compile a python file"
 echo ""
 
 echo "Pick an option:"; read option
@@ -60,6 +61,12 @@ then
 	echo "Type in the executable name without .c, e.g debug"; read c_reg_name
 
 	gcc $c_name -o $c_reg_name
+
+	echo "Process..Completed"
+elif [ $option -eq 8 ]
+then
+	echo "Type in the name of the python file without the extension"; read pyfile
+	python -m $pyfile
 
 	echo "Process..Completed"
 

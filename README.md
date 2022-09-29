@@ -7,11 +7,11 @@ Supported Os or Applications:Linux distributions, gitbash.
 "Run with Admin priviledges."
 
 # Available functions 
-1.Move all particular extention file
+1.Move all particular extension file
 
-2.Copy all particular extention file
+2.Copy all particular extension file
 
-3.Delete all particular extention file... This doesnt go to your recycle bin be warned
+3.Delete all particular extension file... This doesnt go to your recycle bin be warned
 
 4.Move a single file to a directory
 
@@ -20,6 +20,8 @@ Supported Os or Applications:Linux distributions, gitbash.
 6.Delete a single file permanetly... This doesnt go to your recycle bin be warned
 
 7.Compile a C file
+
+8.Compile a python file
 
 # Usage
 Clone repository and move Appbash.sh to desired folder.
