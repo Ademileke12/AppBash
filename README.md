@@ -1,5 +1,5 @@
 # AppBash
-This bash script help with multiple functions
+This bash script That carries out  multiple functions/task
 
 # Version 1.0
 Supported Os or Applications:Linux distributions, gitbash.
@@ -26,3 +26,5 @@ Clone repository and move Appbash.sh to desired folder.
 Run script with "./Appbash.sh"
 If you get and error then copy the following command
 "Chmod u+x *.sh" and run the script again.
+# Collaborators
+demystik and Coderboy-exe
