@@ -59,7 +59,7 @@ then
 	echo "Type in the name of the c file to be compiled, e.g debug.c"; read c_name
 	echo "Type in the executable name without .c, e.g debug"; read c_reg_name
 
-	gcc $c_name -o c_reg_name
+	gcc $c_name -o $c_reg_name
 
 	echo "Process..Completed"
 
